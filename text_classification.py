@@ -156,3 +156,4 @@ head = tf.contrib.estimator.multi_class_head(n_classes=5)
 lstm_classifier = tf.estimator.Estimator(model_fn=lstm_model_fn,
                                          model_dir=os.path.join(model_dir, 'lstm'))
 train_and_evaluate(lstm_classifier)
+
